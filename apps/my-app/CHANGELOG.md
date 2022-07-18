@@ -2,6 +2,13 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [0.2.0](https://github.com/letier3110/nx-test/compare/my-app-0.1.0...my-app-0.2.0) (2022-07-18)
+
+
+### Features
+
+* added stage ([f690e16](https://github.com/letier3110/nx-test/commit/f690e16c89b6cf613c05000450d6790bdebcb90f))
+
 ## 0.1.0 (2022-07-18)
 
 
