@@ -2,6 +2,8 @@
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
   "projects": {
+    "hello-tsc": "libs/hello-tsc",
+    "my-app": "apps/my-app",
     "nx-test": "apps/nx-test"
   }
 }
