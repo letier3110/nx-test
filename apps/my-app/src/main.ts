@@ -12,6 +12,7 @@ app.get('/api', (req, res) => {
 });
 
 console.log('update time!');
+console.log('update time!');
 
 const port = process.env.port || 3333;
 const server = app.listen(port, () => {
