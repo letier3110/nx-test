@@ -2,7 +2,6 @@
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "apps/my-app/src",
   "projectType": "application",
-  "version": "0.0.1",
   "targets": {
     "build": {
       "executor": "@nrwl/node:webpack",
@@ -51,6 +50,12 @@
       "options": {
         "jestConfig": "apps/my-app/jest.config.ts",
         "passWithNoTests": true
+      }
+    },
+    "version": {
+      "executor": "@jscutlery/semver:version",
+      "options": {
+        "preset": "conventional"
       }
     }
   },
